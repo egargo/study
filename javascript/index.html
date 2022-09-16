@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Email and Password Validation</title>
+	</head>
+
+	<body>
+		<div id="form"></div>
+	</body>
+
+	<script>
+		let form = document.getElementById('form');
+
+		let header = document.createElement('h1');
+		header.innerText = 'Email and Password Validation';
+		form.append(header);
+
+		[email, password, repeat_password] = [
+			document.createElement('input'), document.createElement('input'),
+			document.createElement('input')
+		];
+		[email.placeholder, password.placeholder, repeat_password.placeholder] = [
+			'Email', 'Password', 'Repeat Password'
+		];
+
+		[
+			email.style.outline, password.style.outline,
+			repeat_password.style.outline
+		] = ['none', 'none', 'none'];
+
+		form.appendChild(email);
+		form.appendChild(password);
+		form.appendChild(repeat_password);
+
+
+
+		[valid, invalid] = [document.createElement('p'), document.createElement('p')];
+		[valid.style.color, invalid.style.color] = ['green', 'red'];
+		form.appendChild(valid);
+		form.appendChild(invalid);
+
+
+		validation();
+
+
+		const VALID_EMAIL = new RegExp(
+			'([a-zA-Z0-9._]{4,16})+[@]+([a-zA-Z0-9]{2,6})+[.]+[a-zA-Z0-9]{2,6}'
+		);
+		const VALID_PASSWORD = new RegExp(
+			'(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*\(\)]){8,16}'
+		);
+
+
+		function validation() {
+			// Check if email is valid.
+			email.addEventListener('input', event => {
+				if(email.value.search(VALID_EMAIL) == 0) {
+					valid.innerText = 'Valid email address.';
+					invalid.innerText = '';
+					email.style.borderColor = 'green';
+				} else {
+					invalid.innerText = 'Invalid email address.';
+					valid.innerText = '';
+					email.style.borderColor = 'red';
+				}
+			});
+
+			// Check if password is valid.
+			password.addEventListener('input', event => {
+				if(password.value.search(VALID_PASSWORD) == 0) {
+					valid.innerText = `Valid password: ${repeat_password.value}.`;
+					invalid.innerText = '';
+
+					// Check if password matches.
+					repeat_password.addEventListener('input', event => {
+						if(password.value === repeat_password.value) {
+							valid.innerText = 'The password match.';
+							invalid.innerText = '';
+							password.style.borderColor = 'green';
+							repeat_password.style.borderColor = 'green';
+						} else {
+							invalid.innerText = 'The password does not match.';
+							valid.innerText = '';
+						}
+					});
+
+				} else {
+					invalid.innerText = 'Invalid password.';
+					valid.innerText = '';
+				}
+			});
+		}
+	</script>
+</html>
