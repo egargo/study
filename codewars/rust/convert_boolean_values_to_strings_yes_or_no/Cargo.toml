@@ -1,0 +1,8 @@
+[package]
+name = "convert_boolean_values_to_strings_yes_or_no"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
