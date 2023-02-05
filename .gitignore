@@ -2,8 +2,8 @@
 !/**/
 !*.*
 a.out
-#main.rs
 target/
+/codewars/ts/*.js
 
 
 
