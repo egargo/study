@@ -4,6 +4,8 @@
 a.out
 target/
 /codewars/ts/*.js
+__pycache__
+*.pyc
 
 
 
