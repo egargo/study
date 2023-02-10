@@ -7,7 +7,7 @@ class VigenereCipher(object):
 		self.alphabet = alphabet
 		self.alpha = {self.alphabet[i]: i for i in range(len(self.alphabet))}
 		self.length = len(self.alphabet)
-		self.op = {'+': operator.add, '-': operator.sub}
+		self.op = {'-': operator.add, '+': operator.sub}
 
 	def check_length(self, text):
 		rem = (len(text) % len(self.key)) if len(text) < len(self.key) else (len(self.key) % len(text))
@@ -30,16 +30,3 @@ class VigenereCipher(object):
 
 	def decode(self, text):
 		return text if text.isupper() else self.process(text, '-')
-
-
-
-if __name__ == '__main__':
-	password = 'itlympics'
-	abc = 'abcdefghijklmnopqrstuvwxyz'
-	vc = VigenereCipher(password, abc)
-	# print(vc.encode('it\'s a shift cipher!'))
-	# print(vc.encode('codewars'))
-	text = input()
-	enc = vc.encode(text)
-	print(enc)
-	print(vc.decode(enc))
