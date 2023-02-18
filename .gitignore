@@ -6,7 +6,14 @@ target/
 /codewars/ts/*.js
 __pycache__
 *.pyc
+*.class
 
+
+# IntelliJ
+.idea
+study.iml
+/java/*/out/
+/java/*/*.iml
 
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
