@@ -1,4 +1,4 @@
-package study.oop;
+package study.oop.abstraction;
 
 public class Bee extends Insect {
 	@Override

@@ -1,4 +1,4 @@
-package study.oop;
+package study.oop.abstraction;
 
 class Main {
 	public static void main(String[] args) {
