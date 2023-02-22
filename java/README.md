@@ -1,11 +1,10 @@
 # Java
 
-
-
 ```sh
-mkdir -p <ProjectName>/src/
-touch <ProjectName>/src/Main.java
+mkdir -p <ProjectName>/src/the/package/name
+touch <ProjectName>/src/the/package/name/Main.java
 
-javac Main.java
-java Main
+# Inside src/
+javac the/package/name/Main.java
+java the.package.name.Main
 ```
