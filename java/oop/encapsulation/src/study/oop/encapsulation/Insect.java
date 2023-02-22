@@ -1,4 +1,4 @@
-package study.oop;
+package study.oop.encapsulation;
 
 public class Insect {
 	private String name;
