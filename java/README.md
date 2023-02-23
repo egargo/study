@@ -1,4 +1,6 @@
-# Java
+# I hate OOP
+
+## Java
 
 ## Contents
 * OOP
