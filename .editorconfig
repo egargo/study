@@ -3,8 +3,19 @@ root = true
 
 # Unix-style newlines with a newline ending every file
 [*]
+charset = utf-8
 end_of_line = lf
 insert_final_newline = true
-charset = utf-8
+trim_trailing_whitespace = true
+
+[*{c,cpp,java,py}]
 indent_style = tab
 indent_size = 4
+
+[*{json,toml,md}]
+indent_style = space
+indent_size = 2
+
+[*{css,htmljs,ts,tsx,rs}]
+indent_style = space
+indent_size = 2
