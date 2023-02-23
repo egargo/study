@@ -16,9 +16,9 @@ int main(int argc, const char *argv[]) {
             number /= 2;
             printf("%d\t", number);
         } else {
-            number = number * 3 + 1; 
+            number = number * 3 + 1;
             printf("%d\t", number);
-        } 
+        }
         steps+=1;
     }
     printf("\nTerminated after %d steps.\n", steps);
