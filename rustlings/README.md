@@ -1,4 +1,4 @@
-# Exercise to Book Chapter mapping
+# Rustlings progress
 
 | Exercise               | Status              |
 | ---------------------- | ------------------- |
