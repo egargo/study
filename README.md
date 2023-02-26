@@ -6,11 +6,11 @@ Study and programming problem solutions.
 
 ## 📋 Contents
 
--   [Codewars](https://github.com/cliegargo/study/tree/master/codewars)
--   [Programming by Doing](https://github.com/cliegargo/study/tree/master/programmingbydoing)
--   [Project Euler](https://github.com/cliegargo/study/tree/master/projecteuler)
--   [Projects](https://github.com/cegargo/study/tree/master/projects)
--   [Rustlings](https://github.com/cegargo/study/tree/master/rustlings/exercises)
+-   [Codewars](./codewars/)
+-   [Programming by Doing](./programmingbydoing/)
+-   [Project Euler](./projecteuler/)
+-   [Projects](./projects/)
+-   [Rustlings](./rustlings/exercises/)
 
 ## 📝 License
 
