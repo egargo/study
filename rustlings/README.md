@@ -25,3 +25,6 @@
 | macros                 |                     |
 | clippy                 |                     |
 | conversions            |                     |
+
+
+# [Exercise to Book Chapter mapping](./exercises/)
