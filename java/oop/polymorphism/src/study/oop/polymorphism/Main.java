@@ -1,7 +1,12 @@
 package study.oop.polymorphism;
 
-public class Main {
+
+class Main {
 	public static void main(String[] args) {
-		System.out.println("Polymorphism.");
+		Insect insect = new Insect();
+		insect.fly();
+
+		Insect bee = new Bee();
+		System.out.println(bee.fly("Bee"));
 	}
 }
