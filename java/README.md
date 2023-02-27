@@ -4,10 +4,10 @@
 
 ## Contents
 * OOP
-  * [Abstraction](https://github.com/egargo/study/tree/master/java/oop/abstraction/src/study/oop/abstraction)
-  * [Encapsulation](https://github.com/egargo/study/tree/master/java/oop/encapsulation/src/study/oop/encapsulation)
-  * Inheritance
-  * Polymorphism
+  * [Abstraction](./oop/abstraction/src/study/oop/abstraction/)
+  * [Encapsulation](./oop/encapsulation/src/study/oop/encapsulation/)
+  * [Inheritance](./oop/inheritance/src/study/oop/inheritance/)
+  * [Polymorphism](./oop/polymorphism/src/study/oop/polymorphism/)
 
 ```sh
 mkdir -p <ProjectName>/src/the/package/name
