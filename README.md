@@ -6,6 +6,7 @@ Study and programming problem solutions.
 
 ## 📋 Contents
 
+-   [Advent of Code](./aoc/)
 -   [Codewars](./codewars/)
 -   [Programming by Doing](./programmingbydoing/)
 -   [Project Euler](./projecteuler/)
