@@ -1,35 +1,24 @@
-use std::fs::File;
-use std::io::{BufRead, BufReader};
+mod read;
 
-fn read_file(fpath: &str) -> Vec<Vec<i32>> {
-    let file = File::open(fpath)
-        .expect("Could not read file");
-
-    let reader = BufReader::new(file);
-
-    let mut lines: Vec<Vec<i32>> = Vec::new();
-    let mut temp: Vec<i32> = Vec::new();
-
-    for line in reader.lines() {
-        let line = line.expect("Could not read line");
-
-        if line.trim().is_empty() {
-            lines.push(temp.clone());
-            temp.clear();
-        } else {
-            temp.push(line.trim().parse::<i32>().unwrap());
-        }
-    }
-
-    lines
+fn aoc1p1(cals: Vec<Vec<i32>>) -> i32 {
+    *cals.iter()
+        .map(|row| row.iter().sum())
+        .collect::<Vec<_>>().iter().max().unwrap()
 }
 
-fn main() {
-    let cals = read_file("input.txt");
-
-    let scores: Vec<i32> = cals.iter()
+fn aoc1p2(cals: Vec<Vec<i32>>) -> i32 {
+    let mut total: Vec<i32> = cals.iter()
         .map(|row| row.iter().sum())
         .collect();
 
-    println!("{:?}", scores.iter().max().unwrap());
+    total.sort_by(|a, b| b.cmp(a));
+
+    total[0..3].iter().sum()
+}
+
+fn main() {
+    let cals = read::read_file("input.txt");
+
+    println!("{:?}", aoc1p1(cals.clone()));
+    println!("{:?}", aoc1p2(cals.clone()));
 }
