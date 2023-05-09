@@ -9,6 +9,8 @@
 // when you change one of the lines below! Try adding a `println!` line, or try changing
 // what it outputs in your terminal. Try removing a semicolon and see what happens!
 
+// I AM NOT DONE
+
 fn main() {
     println!("Hello and");
     println!(r#"       welcome to...                      "#);
@@ -27,7 +29,7 @@ fn main() {
     println!(
         "Going forward, the source of the exercises will always be in the success/failure output."
     );
-    println!("Hello, Bee!");
+    println!();
     println!(
         "If you want to use rust-analyzer, Rust's LSP implementation, make sure your editor is set"
     );
