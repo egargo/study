@@ -8,6 +8,7 @@ Study and programming problem solutions.
 
 -   [Advent of Code](./aoc/)
 -   [Codewars](./codewars/)
+-   [Exercism](./exercism/)
 -   [Programming by Doing](./programmingbydoing/)
 -   [Project Euler](./projecteuler/)
 -   [Projects](./projects/)
@@ -20,7 +21,7 @@ Study and programming problem solutions.
 -   My solutions are licensed under the [MIT License](./LICENSE).
 
 ### 🚩 Problems
-
+-   [Exercism](https://github.com/exercism/problem-specifications/blob/main/LICENSE)
 -   [Programming by Doing](https://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US)
 -   [Project Euler](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
 -   [Projects](https://github.com/karan/Projects/blob/master/LICENSE.md)
