@@ -2,3 +2,4 @@
 
 * [Meow](https://www.hackthebox.com/achievement/machine/1516734/394)
 * [Fawn](https://www.hackthebox.com/achievement/machine/1516734/393)
+* [Dancing](https://www.hackthebox.com/achievement/machine/1516734/395)
