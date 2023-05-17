@@ -9,6 +9,7 @@ My programming problem solutions.
 -   [Advent of Code](./aoc/)
 -   [Codewars](./codewars/)
 -   [Exercism](./exercism/)
+-   [Hack The Box](./hackthebox/)
 -   [Programming by Doing](./programmingbydoing/)
 -   [Project Euler](./projecteuler/)
 -   [Projects](./projects/)
