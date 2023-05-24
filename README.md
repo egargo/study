@@ -18,4 +18,4 @@ My programming problem solutions.
 
 # License
 
--   My solutions are licensed under the [MIT License](./LICENSE).
+My solutions are licensed under the [MIT License](./LICENSE).
