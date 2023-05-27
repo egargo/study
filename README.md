@@ -2,8 +2,8 @@
 
 My programming problem solutions.
 
-> <img alt="codewars" src="https://www.codewars.com/users/eclint/badges/micro">\
-> <img alt="projecteuler" src="https://projecteuler.net/profile/eclint.png" width="120">
+> <img alt="codewars" src="https://www.codewars.com/users/egargo/badges/micro">\
+> <img alt="projecteuler" src="https://projecteuler.net/profile/egargo.png" width="120">
 
 # Contents
 
