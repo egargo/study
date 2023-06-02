@@ -11,6 +11,7 @@ My programming problem solutions.
 -   [Codewars](./codewars/)
 -   [Exercism](./exercism/)
 -   [Hack The Box](./hackthebox/)
+-   [SPOJ](./SPOJ/)
 -   [Programming by Doing](./programmingbydoing/)
 -   [Project Euler](./projecteuler/)
 -   [Projects](./projects/)
