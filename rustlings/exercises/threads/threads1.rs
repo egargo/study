@@ -1,10 +1,12 @@
 // threads1.rs
-// Execute `rustlings hint threads1` or use the `hint` watch subcommand for a hint.
-
-// This program spawns multiple threads that each run for at least 250ms,
-// and each thread returns how much time they took to complete.
-// The program should wait until all the spawned threads have finished and
-// should collect their return values into a vector.
+//
+// This program spawns multiple threads that each run for at least 250ms, and
+// each thread returns how much time they took to complete. The program should
+// wait until all the spawned threads have finished and should collect their
+// return values into a vector.
+//
+// Execute `rustlings hint threads1` or use the `hint` watch subcommand for a
+// hint.
 
 // I AM NOT DONE
 
@@ -30,7 +32,7 @@ fn main() {
     if results.len() != 10 {
         panic!("Oh no! All the spawned threads did not finish!");
     }
-    
+
     println!();
     for (i, result) in results.into_iter().enumerate() {
         println!("thread {} took {}ms", i, result);
