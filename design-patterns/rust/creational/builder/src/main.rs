@@ -49,7 +49,7 @@ impl LinuxBuilder {
 fn main() {
     let pop = Linux::new("Pop!_OS".to_owned())
         .base("Ubuntu".to_owned())
-        .desktop("GNOME".to_string())
+        .desktop("GNOME".to_owned())
         .build();
 
     println!("{:?}", pop);
