@@ -1,15 +1,19 @@
-#!/usr/bin/sh
+#!/usr/bin/env bash
 
-mv -v rustlings rustlings.bak;
+mv -v rustlings rustlings.old;
 
-git rm -rf rustlings
+git clone git@github.com:rust-lang/rustlings.git
 
-curl -L https://raw.githubusercontent.com/rust-lang/rustlings/main/install.sh | bash;
+cp -TRv rustlings.old rustlings
 
-cp -vr rustlings.bak/exercises/ rustlings/exercises;
+echo "Do you want to delete rustlings.old directory? [yN]: "
+read option
 
-rm -rf rustlings/.git/;
-
-git add rustlings;
+if [ "$option" == "y" ]; then
+    echo "Deleting the rustlings.old directory."
+    rm -rf rustlings.old
+else
+    echo "Keeping rustlings.old directory."
+fi
 
 echo "Done!"
