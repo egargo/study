@@ -1,6 +1,5 @@
 // https://www.codewars.com/kata/57eadb7ecd143f4c9c0000a3/train/rust
 
-
 fn abbrev_name(name: &str) -> String {
     let n = name.split(" ").collect::<Vec<_>>();
 
