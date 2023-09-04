@@ -1,6 +1,6 @@
 # study
 
-My programming problem solutions.
+:man_technologist: My programming problem solutions.
 
 > <img alt="codewars" src="https://www.codewars.com/users/egargo/badges/micro">\
 > <img alt="projecteuler" src="https://projecteuler.net/profile/egargo.png" width="120">
