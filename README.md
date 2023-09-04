@@ -9,6 +9,7 @@ My programming problem solutions.
 
 -   [Advent of Code](./aoc/)
 -   [Codewars](./codewars/)
+-   [Data Structures and Algorithms](./dsa)
 -   [Design Patterns](./design-patterns/)
 -   [Exercism](./exercism/)
 -   [SPOJ](./SPOJ/)
