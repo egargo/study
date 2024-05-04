@@ -1,7 +1,5 @@
 program Hello;
 
-{$APPTYPE CONSOLE}
-
 begin
-    WriteLn('Hello World');
+    WriteLn('Hello, world!');
 end.
