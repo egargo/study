@@ -1,6 +1,7 @@
 *
 !/**/
 !*.*
+*.o
 a.out
 target/
 /codewars/ts/*.js
