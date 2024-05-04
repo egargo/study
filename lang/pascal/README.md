@@ -3,6 +3,6 @@
 sudo apt install fp-compiler
 
 # Compile and run
-fp Hello.dpr
+fpc Hello.dpr
 ./Hello
 ```
