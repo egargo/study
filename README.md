@@ -19,6 +19,10 @@
 -   [Projects](./projects/)
 -   [Rustlings](./rustlings/exercises/)
 
+- Others
+  - [Data Structures and Algorithms](https://github.com/egargo/dsa)
+  - [Design Patterns](https://github.com/egargo/design-patterns)
+
 # License
 
 My solutions are licensed under the [MIT License](./LICENSE).
